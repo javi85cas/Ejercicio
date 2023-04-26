@@ -1,0 +1,13 @@
+topping="rrr"
+price = 1.90
+if topping =="Brownie":
+    price+=0.75
+elif topping=="kitkat":
+    price+=1.50
+elif topping=="oreo":
+    price+=1
+elif topping=="lacasitos":
+    price+=0.95
+else:
+    print("We dont have")
+print("your topping is:",topping, "you should pay:",price)
